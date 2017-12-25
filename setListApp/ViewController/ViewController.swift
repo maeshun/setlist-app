@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  serListApp
+//  setListApp
 //
 //  Created by 前俊輔 on 2017/12/20.
 //  Copyright © 2017年 前俊輔. All rights reserved.

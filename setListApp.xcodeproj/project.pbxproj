@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		6B4682731FEFED390098B3B3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		6B4682741FEFED390098B3B3 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		6BFFA6A11FEA945A00A619C1 /* serListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = serListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFFA6A11FEA945A00A619C1 /* setListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = setListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFFA6A41FEA945A00A619C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BFFA6A61FEA945A00A619C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BFFA6A91FEA945A00A619C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		6BFFA6981FEA945A00A619C1 = {
 			isa = PBXGroup;
 			children = (
-				6BFFA6A31FEA945A00A619C1 /* serListApp */,
+				6BFFA6A31FEA945A00A619C1 /* setListApp */,
 				6BFFA6A21FEA945A00A619C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		6BFFA6A21FEA945A00A619C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BFFA6A11FEA945A00A619C1 /* serListApp.app */,
+				6BFFA6A11FEA945A00A619C1 /* setListApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6BFFA6A31FEA945A00A619C1 /* serListApp */ = {
+		6BFFA6A31FEA945A00A619C1 /* setListApp */ = {
 			isa = PBXGroup;
 			children = (
 				6B4682721FEFED190098B3B3 /* View */,
@@ -75,7 +75,7 @@
 				6BFFA6AD1FEA945A00A619C1 /* LaunchScreen.storyboard */,
 				6BFFA6B01FEA945A00A619C1 /* Info.plist */,
 			);
-			path = serListApp;
+			path = setListApp;
 			sourceTree = "<group>";
 		};
 		6BFFA6B61FEA950000A619C1 /* ViewController */ = {
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BFFA6A01FEA945A00A619C1 /* serListApp */ = {
+		6BFFA6A01FEA945A00A619C1 /* setListApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BFFA6B31FEA945A00A619C1 /* Build configuration list for PBXNativeTarget "serListApp" */;
+			buildConfigurationList = 6BFFA6B31FEA945A00A619C1 /* Build configuration list for PBXNativeTarget "setListApp" */;
 			buildPhases = (
 				6BFFA69D1FEA945A00A619C1 /* Sources */,
 				6BFFA69E1FEA945A00A619C1 /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = serListApp;
+			name = setListApp;
 			productName = serListApp;
-			productReference = 6BFFA6A11FEA945A00A619C1 /* serListApp.app */;
+			productReference = 6BFFA6A11FEA945A00A619C1 /* setListApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6BFFA69C1FEA945A00A619C1 /* Build configuration list for PBXProject "serListApp" */;
+			buildConfigurationList = 6BFFA69C1FEA945A00A619C1 /* Build configuration list for PBXProject "setListApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BFFA6A01FEA945A00A619C1 /* serListApp */,
+				6BFFA6A01FEA945A00A619C1 /* setListApp */,
 			);
 		};
 /* End PBXProject section */
@@ -300,9 +300,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = serListApp/Info.plist;
+				INFOPLIST_FILE = setListApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry-burst.serListApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry-burst.setListApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,9 +315,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = serListApp/Info.plist;
+				INFOPLIST_FILE = setListApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry-burst.serListApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherry-burst.setListApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BFFA69C1FEA945A00A619C1 /* Build configuration list for PBXProject "serListApp" */ = {
+		6BFFA69C1FEA945A00A619C1 /* Build configuration list for PBXProject "setListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BFFA6B11FEA945A00A619C1 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BFFA6B31FEA945A00A619C1 /* Build configuration list for PBXNativeTarget "serListApp" */ = {
+		6BFFA6B31FEA945A00A619C1 /* Build configuration list for PBXNativeTarget "setListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BFFA6B41FEA945A00A619C1 /* Debug */,
